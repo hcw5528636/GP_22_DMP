@@ -35,13 +35,13 @@ object proCity {
     // 指标统计
     val result = sQLContext.sql("select provincename,cityname,count(*) from log group by provincename,cityname")
 
-    result.coalesce(1).write.partitionBy("provincename","cityname").json(outputPath)
+   // result.coalesce(1).write.partitionBy("provincename","cityname").json(outputPath)
     // 加载配置文件  需要使用对应的依赖
-//    val load = ConfigFactory.load()
-//    val prop = new Properties()
-//    prop.setProperty("user",load.getString("jdbc.user"))
-//    prop.setProperty("password",load.getString("jdbc.password"))
-//    result.write.mode("append").jdbc(load.getString("jdbc.url"),load.getString("jdbc.TableName"),prop)
+    val load = ConfigFactory.load()
+    val prop = new Properties()
+    prop.setProperty("user",load.getString("jdbc.user"))
+    prop.setProperty("password",load.getString("jdbc.password"))
+    result.write.mode("append").jdbc(load.getString("jdbc.url"),load.getString("jdbc.TableName"),prop)
     sc.stop()
   }
 }
