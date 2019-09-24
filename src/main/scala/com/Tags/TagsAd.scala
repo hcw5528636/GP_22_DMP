@@ -1,6 +1,6 @@
 package com.Tags
 
-import com.utils.Tag
+import com.util.Tag
 import org.apache.commons.lang3.StringUtils
 import org.apache.spark.sql.Row
 
@@ -26,6 +26,9 @@ object TagsAd extends Tag{
     if(StringUtils.isBlank(adName)){
       list:+=("LN"+adName,1)
     }
+    // 渠道标签
+    val channel = row.getAs[Int]("adplatformproviderid")
+    list:+=("CN"+channel,1)
 
     list
 

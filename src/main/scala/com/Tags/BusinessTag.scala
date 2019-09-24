@@ -1,7 +1,7 @@
 package com.Tags
 
 import ch.hsr.geohash.GeoHash
-import com.utils.{AmapUtil, JedisConnectionPool, String2Type, Tag}
+import com.util.{AmapUtil, JedisConnectionPool, String2Type, Tag}
 import org.apache.commons.lang3.StringUtils
 import org.apache.spark.sql.Row
 
