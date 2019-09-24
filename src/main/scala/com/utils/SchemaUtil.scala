@@ -94,4 +94,7 @@ object SchemaUtil {
     StructField("mediatype", IntegerType)
     )
   )
+
+  object structtype
+
 }

@@ -1,7 +1,7 @@
 package com.Tags
 
 import com.typesafe.config.ConfigFactory
-import com.util.TagUtils
+import com.utils.TagUtils
 import org.apache.hadoop.hbase.{HColumnDescriptor, HTableDescriptor, TableName}
 import org.apache.hadoop.hbase.client.{ConnectionFactory, Put}
 import org.apache.hadoop.hbase.io.ImmutableBytesWritable

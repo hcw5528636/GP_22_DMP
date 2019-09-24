@@ -1,6 +1,6 @@
 package com.ETL
 
-import com.utils.Utils2Type
+import com.utils.{SchemaUtil, Utils2Type}
 import org.apache.spark.sql.{Row, SQLContext}
 import org.apache.spark.{SparkConf, SparkContext}
 
@@ -121,7 +121,7 @@ object txt2Parquet {
         )
       })
     // 构建DF
-    val df = sQLContext.createDataFrame(rowRDD,SchemaUtils.structtype)
+    val df = sQLContext.createDataFrame(rowRDD,SchemaUtil.structtype)
     // 保存数据
     df.write.parquet(outputPath)
     sc.stop()

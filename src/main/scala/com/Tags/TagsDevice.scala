@@ -1,6 +1,6 @@
 package com.Tags
 
-import com.util.Tag
+import com.utils.Tag
 import org.apache.spark.sql.Row
 
 /**
