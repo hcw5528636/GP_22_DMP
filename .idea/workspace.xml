@@ -1,26 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48d5cd95-f39d-427b-8652-bb0a6970891e" name="Default Changelist" comment="1">
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/GP_22_DMP.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ETL/Txt2Parquet2$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ETL/Txt2Parquet2$$anonfun$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ETL/Txt2Parquet2$$anonfun$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ETL/Txt2Parquet2$$typecreator1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ETL/Txt2Parquet2$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ETL/Txt2Parquet2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ProCityCt/proCity$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ProCityCt/proCity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRptSQL$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRptSQL.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/beans/DBConnectionPool$$anonfun$initConnectionPool$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/beans/DBConnectionPool$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/beans/DBConnectionPool.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/beans/Log$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/beans/Log.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/Utils2Type$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/Utils2Type.class" afterDir="false" />
+    <list default="true" id="48d5cd95-f39d-427b-8652-bb0a6970891e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/Rpt/LocationRptSQL.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            <state relative-caret-position="196">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#17#50#0" expanded="true" />
               </folding>
@@ -103,6 +85,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/Tags/TagsLocation.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/Tags/TagsKword.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/Tags/TagsAd.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/utils/Tag.scala" />
       </list>
     </option>
   </component>
@@ -118,7 +101,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="1385" />
     <option name="height" value="755" />
@@ -225,17 +208,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="GP_22_DMP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GP_22_DMP" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GP_22_DMP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GP_22_DMP" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -247,7 +219,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/scala/com/Tags" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -400,7 +372,7 @@
       <workItem from="1569236840097" duration="2259000" />
       <workItem from="1569247117362" duration="59000" />
       <workItem from="1569294325657" duration="1815000" />
-      <workItem from="1569313030408" duration="2057000" />
+      <workItem from="1569313030408" duration="3030000" />
     </task>
     <task id="LOCAL-00001" summary="模板">
       <created>1566223097898</created>
@@ -591,11 +563,18 @@
       <option name="project" value="LOCAL" />
       <updated>1569315031009</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="123">
+      <created>1569315296874</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1569315296874</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73787000" />
+    <option name="totallyTimeSpent" value="74760000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -607,8 +586,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23592493" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -650,7 +628,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="模板" />
     <MESSAGE value="模板2" />
-    <MESSAGE value="123" />
     <MESSAGE value="1234" />
     <MESSAGE value="12345" />
     <MESSAGE value="123456" />
@@ -658,7 +635,8 @@
     <MESSAGE value="51" />
     <MESSAGE value="11" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="123" />
+    <option name="LAST_COMMIT_MESSAGE" value="123" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/GP_22_DMP$txt2Parquet.ic" NAME="txt2Parquet Coverage Results" MODIFIED="1566358627963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -765,13 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12">
           <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/utils/Tag.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -954,10 +925,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/utils/Tag.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/utils/tt.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/Rpt/LocationRptSQL.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        <state relative-caret-position="196">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#17#50#0" expanded="true" />
           </folding>
